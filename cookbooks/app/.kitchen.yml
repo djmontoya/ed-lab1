@@ -29,4 +29,5 @@ suites:
   - name: default
     run_list:
       - recipe[app::default]
+      - recipe[app::mysql_service]
     attributes:

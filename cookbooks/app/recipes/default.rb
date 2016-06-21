@@ -7,3 +7,6 @@
 
 
 include_recipe 'app::install_apache'
+include_recipe 'app::mysql_service'
+include_recipe 'app::vim'
+include_recipe 'app::mongo_service'
